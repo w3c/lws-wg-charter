@@ -182,8 +182,7 @@
 
         <p>Updated document status is available on the <a href="https://www.w3.org/groups/wg/lws/publications/">group publication status page</a>.</p>
 
-        <p id="draft-state"><i>Draft state</i> indicates the state of the deliverable at the time of the charter approval. <span class="todo">Choose one:</span> <i>Expected completion</i> indicates when the deliverable is projected to become a Recommendation, or otherwise reach a stable state
-          <span class="todo">The Working Group intends to publish the latest state of their work as Candidate Recommendation (with Snapshots) and does not intend to advance their documents to Recommendation</span>.</p>
+        <p id="draft-state"><i>Draft state</i> indicates the state of the deliverable at the time of the charter approval. <i>Expected completion</i> indicates when the deliverable is projected to become a Recommendation, or otherwise reach a stable state.</p>
           <!--
             Deliverables lists are more easily generated from the information available at https://www.w3.org/groups/[type]/[shortname]/deliverables/ (member-only).
           -->
@@ -202,7 +201,7 @@
                         <dd>
                             <p>This document defines an OpenID Connect-based authentication suite for the Linked Web Storage (LWS) protocol, enabling LWS applications to integrate with OpenID providers.</p>
                             <p><b>Draft state:</b> Working Draft</p>
-                            <p><b>Expected completion:</b> [Q1–4 YYYY]</p>
+                            <p><b>Expected completion:</b> <span class="todo">[Q1–4 YYYY]</span> (Start + 14 months)</p>
                             <p><b>Latest publication:</b> <a href="https://www.w3.org/TR/2026/WD-lws10-authn-openid-20260609/">2026-06-09</a></p>
                             <p><b>Exclusion Draft:</b>
                                 <a href="https://www.w3.org/TR/2026/WD-lws10-authn-openid-20260423/">https://www.w3.org/TR/2026/WD-lws10-authn-openid-20260423/</a><br>
@@ -217,7 +216,7 @@
                         <dd>
                             <p>This document defines a SAML-based authentication suite for the Linked Web Storage (LWS) protocol, enabling LWS applications to integrate with SAML 2.0 identity providers.</p>
                             <p><b>Draft state:</b> Working Draft</p>
-                            <p><b>Expected completion:</b> [Q1–4 YYYY]</p>
+                            <p><b>Expected completion:</b> <span class="todo">[Q1–4 YYYY]<span> (Start + 14 months)</p>
                             <p><b>Latest publication:</b> <a href="https://www.w3.org/TR/2026/WD-lws10-authn-saml-20260609/">2026-06-09</a></p>
                             <p><b>Exclusion Draft:</b>
                                 <a href="https://www.w3.org/TR/2026/WD-lws10-authn-saml-20260423/">https://www.w3.org/TR/2026/WD-lws10-authn-saml-20260423/</a><br>
@@ -232,7 +231,7 @@
                         <dd>
                             <p>This document defines an authentication suite for the Linked Web Storage (LWS) protocol, enabling clients that are able to sign their own identity tokens to integrate with LWS.</p>
                             <p><b>Draft state:</b> Working Draft</p>
-                            <p><b>Expected completion:</b> [Q1–4 YYYY]</p>
+                            <p><b>Expected completion:</b> <span class="todo">[Q1–4 YYYY]</span> (Start + 14 months)</p>
                             <p><b>Latest publication:</b> <a href="https://www.w3.org/TR/2026/WD-lws10-authn-ssi-cid-20260609/">2026-06-09</a></p>
                             <p><b>Exclusion Draft:</b>
                                 <a href="https://www.w3.org/TR/2026/WD-lws10-authn-ssi-cid-20260423/">https://www.w3.org/TR/2026/WD-lws10-authn-ssi-cid-20260423/</a><br>
@@ -262,7 +261,7 @@
                         <dd>
                             <p>The Linked Web Storage Protocol specification aims to provide applications with secure and permissioned access to externally stored data in an interoperable way.</p>
                             <p><b>Draft state:</b> Working Draft</p>
-                            <p><b>Expected completion:</b> [Q1–4 YYYY]</p>
+                            <p><b>Expected completion:</b> <span class="todo">[Q1–4 YYYY]</span> (Start + 14 months)</p>
                             <p><b>Latest publication:</b> <a href="https://www.w3.org/TR/2026/WD-lws10-core-20260728/">2026-07-28</a></p>
                             <p><b>Exclusion Draft:</b>
                                 <a href="https://www.w3.org/TR/2026/WD-lws10-core-20260331/">https://www.w3.org/TR/2026/WD-lws10-core-20260331/</a><br>
@@ -312,14 +311,21 @@
 
         <section id="timeline">
           <h3>Timeline</h3>
-            <p class="todo">Put here a timeline view of all deliverables.</p>
-            <ul class="todo">
-              <li>Month YYYY: First teleconference</li>
-              <li>Month YYYY: First face-to-face meeting</li>
-              <li>Month YYYY: Requirements and Use Cases for FooML</li>
-              <li>Month YYYY: FPWD for FooML</li>
-              <li>Month YYYY: Requirements and Use Cases for BarML</li>
-              <li>Month YYYY: FPWD FooML Primer</li>
+            <ul>
+              <li><span class="todo">[dd monthname yyyy]</span> (Start date + 1 month): First teleconference</li>
+              <li><span class="todo">[dd monthname yyyy]</span> (Start date + 2 months): CR LWS Core</li>
+              <li><span class="todo">[dd monthname yyyy]</span> (Start date + 2 months): CR LWS OpenID Authentication Suite</li>
+              <li><span class="todo">[dd monthname yyyy]</span> (Start date + 2 months): CR LWS SAML Authentication Suite</li>
+              <li><span class="todo">[dd monthname yyyy]</span> (Start date + 2 months): CR LWS Controlled Identifier Authentication Suite</li>
+              <li><span class="todo">[dd monthname yyyy]</span> (Start date + 2 months): CR LWS Webhook Notifications</li>
+              <li><span class="todo">[dd monthname yyyy]</span> (Start date + 6 months): CR LWS Index Services</li>
+              <li><span class="todo">[dd monthname yyyy]</span> (LWS Core CR + 12 months): LWS Primer and Threat Model</li>
+              <li><span class="todo">[dd monthname yyyy]</span> (CR + 12 months): REC LWS Core</li>
+              <li><span class="todo">[dd monthname yyyy]</span> (CR + 12 months): REC LWS OpenID Authentication Suite</li>
+              <li><span class="todo">[dd monthname yyyy]</span> (CR + 12 months): REC LWS SAML Authentication Suite</li>
+              <li><span class="todo">[dd monthname yyyy]</span> (CR + 12 months): REC LWS Controlled Identifier Authentication Suite</li>
+              <li><span class="todo">[dd monthname yyyy]</span> (CR + 12 months): REC LWS Webhook Notifications</li>
+              <li><span class="todo">[dd monthname yyyy]</span> (CR + 12 months): REC LWS Index Services</li>
             </ul>
         </section>
       </section>
